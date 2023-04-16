@@ -1,0 +1,64 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color:#272121;
+    --secondary-color: #443737;
+    --text-color: #fff;
+    --neon-color: #8DCBE6;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 15rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    cursor: default;
+    letter-spacing: 2px;
+}
+.navbar a{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+}
+.navbar a:hover, .navbar a.active{
+    color: var(--neon-color);
+}
+#menu-icon{
+    font-size: 2rem;
+    color: var(--text-color);
+    display: none;
+}
+section{
+    min-height: 100vh;
+    padding: 9rem 10% 0 10%;
+}
