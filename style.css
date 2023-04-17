@@ -132,3 +132,21 @@ span{
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+.service h1{
+    font-size: 4rem;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.service-container .service-box{
+    flex: 1 1 30rem;
+    background-color: var(--secondary-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+}
