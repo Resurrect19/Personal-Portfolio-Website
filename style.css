@@ -14,7 +14,7 @@
     --primary-color:#272121;
     --secondary-color: #443737;
     --text-color: #fff;
-    --neon-color: #8DCBE6;
+    --neon-color: #eef75c;
 
 }
 html{
@@ -51,6 +51,7 @@ body{
     transition: .3s;
 }
 .navbar a:hover, .navbar a.active{
+    text-shadow: 0 0 .5rem var(--neon-color);
     color: var(--neon-color);
 }
 #menu-icon{
@@ -61,4 +62,73 @@ body{
 section{
     min-height: 100vh;
     padding: 9rem 10% 0 10%;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-content h3{
+    font-size: 3.4rem;
+}
+span{
+    color: var(--neon-color);
+}
+.home-content h1{
+    font-size: 5rem;
+    line-height: 1.5;
+}
+.home-content p{
+    font-size: 2rem;
+}
+.social_media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--neon-color);
+    border-radius: 50%;
+    color: var(--neon-color);
+    margin: 1.6rem 1rem 1.6rem 0;
+    transition: .5s ease;
+}
+.social_media a:hover{
+    background-color: var(--neon-color);
+    color: var(--secondary-color);
+    box-shadow: 0 0 1rem var(--neon-color);
+}
+.btn{
+    background-color: var(--neon-color);
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: 0 0 1rem var(--neon-color);
+    color: var(--secondary-color);
+    transition: .5s ease;
+}
+.btn:hover{
+    box-shadow: none;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+}
+.about-content h3{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.about-content p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
