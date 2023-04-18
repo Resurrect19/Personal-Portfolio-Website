@@ -180,6 +180,7 @@ span{
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     margin-top: 8rem;
+    padding-bottom: 3rem;
     /* align-items: center; */
 }
 .portfolio-container .portfolio-box{
@@ -231,4 +232,30 @@ span{
 .portfolio-layer p{
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+.contact h2{
+    margin-bottom: 4rem;
+}
+.contact form{
+    max-width: 80rem;
+    text-align: center;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .input-box input, .contact form textarea{
+    width: 100%;
+    padding: 1.8rem;
+    margin: .5rem 0;
+    border-radius:1rem ;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    font-size: 1.3rem;
+}
+.contact form .btn{
+    margin-top: 2rem;
 }
