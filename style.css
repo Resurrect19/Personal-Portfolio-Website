@@ -149,4 +149,22 @@ span{
     border-radius: 3rem;
     text-align: center;
     margin-top: 10rem;
+    transition: .5s ease;
+    border: .3rem solid var(--primary-color);
+}
+.service-container .service-box:hover{
+    border: .3rem solid var(--neon-color);
+    transform: scale(1.02);
+}
+.service-box i{
+    font-size: 5rem;
+    color: var(--neon-color);
+}
+.service-box h2{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.service-box p{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
 }
