@@ -37,6 +37,9 @@ body{
     align-items: center;
     z-index: 100;
 }
+header.sticky{
+    border-bottom: 0.1rem solid rgba(0,0,0, 0.2);
+}
 .logo{
     font-size: 2.5rem;
     font-weight: bold;
@@ -139,7 +142,7 @@ span{
     border-radius: 50%;
     overflow: hidden;
     z-index: 3;
-    box-shadow: 0 0 4rem var(--neon-color); 
+    box-shadow: 0 0 4rem var(--text-color); 
     overflow: hidden;
 }
 .about-img img{
@@ -290,4 +293,11 @@ span{
 }
 .contact form textarea{
     resize: none;
+}
+.footer{
+    background-color: var(--secondary-color);
+    text-align: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    font-size: 1.5rem;
 }
